@@ -47,7 +47,7 @@ const Content = () => {
         </div>
         <Dialog open={openDialog} onClose={() => setOpenDialog(!openDialog)}>
             <DialogTitle>Životopis</DialogTitle>
-            <iframe src={pdf} width="550px" height="500px"></iframe>
+            <iframe src={pdf} width="550px" height="500px" title="Životopis"></iframe>
         </Dialog>
     </div>
 }
