@@ -28,7 +28,7 @@ code {
   color: white;
   position: absolute;
   top: 30px;
-  margin: 0 30px 0 100px;
+  margin-left: 10px;
 }
 
 .content h1 {
@@ -80,4 +80,10 @@ img {
   width: 140px;
   height: 200px;
   transform: rotate(15deg);
+}
+
+@media screen and (min-width: 400px) {
+  .content {
+    margin: 0 30px 0 100px;
+  }
 }
